@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - 'iris_raw/**'
-      - 'automate_BKA.py'
+      - 'automate_Brian.py'
       - '.github/workflows/preprocessing.yml'
 
 jobs:
