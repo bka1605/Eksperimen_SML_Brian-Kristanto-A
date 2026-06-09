@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'iris_raw/**'
+      - 'mobile_price_cls_raw/**'
       - 'automate_Brian.py'
       - '.github/workflows/preprocessing.yml'
 
@@ -35,6 +35,6 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add iris_preprocessing/
-        git commit -m "Auto-preprocess dataset iris" || echo "Tidak ada perubahan untuk di-commit"
+        git add mobile_price_cls_preprocessing/
+        git commit -m "Auto-preprocess dataset mobile_price_classification" || echo "Tidak ada perubahan untuk di-commit"
         git push
